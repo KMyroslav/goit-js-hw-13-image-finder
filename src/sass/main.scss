@@ -189,7 +189,7 @@ body {
     flex-wrap: wrap;
   }
   .photo-card {
-    flex-basis: calc((97%-10) / 3);
+    flex-basis: calc((97%-10px) / 3);
     flex-wrap: wrap;
     &:not(:nth-child(3n)) {
       margin-right: 5px;
@@ -205,7 +205,7 @@ body {
 
 @media screen and (min-width: 1145px) {
   .photo-card {
-    flex-basis: calc((98%-15) / 4);
+    flex-basis: calc((98%-15px) / 4);
     &:not(:nth-child(4n)) {
       margin-right: 5px;
     }
