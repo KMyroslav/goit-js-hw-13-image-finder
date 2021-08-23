@@ -137,18 +137,17 @@ body {
 
 .stats {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   min-height: 50px;
-  padding-bottom: 3px;
+  padding: 7px 2px 4px 2px;
 }
 
 .stats-item {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-}
-
-.material-icons {
-  margin-right: 4px;
+  margin: 0;
 }
 
 .load-more-btn {
